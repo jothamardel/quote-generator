@@ -1,3 +1,10 @@
+const quoteContainer = document.getElementById('quote-container');
+const quoteContainer = document.getElementById('quote-container');
+const quoteContainer = document.getElementById('quote-container');
+const quoteContainer = document.getElementById('quote-container');
+const quoteContainer = document.getElementById('quote-container');
+
+
 // Get Quote from  API
 
 async function getQuote() {
