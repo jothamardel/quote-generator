@@ -16,7 +16,7 @@ async function getQuote() {
     const data = await response.json();
     console.log(data);
     // If Author is blank, add Unknown.
-    if (data.authorText === '') {
+    if (data.quoteAuthor === '') {
       authorText.innerText = 'Unknown';
     } else {
       authorText.innerText = data.quoteAuthor;
